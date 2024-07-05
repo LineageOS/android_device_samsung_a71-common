@@ -157,6 +157,9 @@ PRODUCT_PACKAGES += \
     android.hardware.health-service.samsung-recovery \
     vendor.lineage.health-service.default \
 
+# Include
+$(call soong_config_set,samsungVars,target_specific_header_path,$(LOCAL_PATH)/include)
+
 # IPACM
 PRODUCT_PACKAGES += \
     ipacm \

@@ -8,12 +8,11 @@ cc_binary {
     name: "vendor.lineage.touch@1.0-service.sm6150",
     init_rc: ["vendor.lineage.touch@1.0-service.sm6150.rc"],
     vintf_fragments: ["vendor.lineage.touch@1.0-service.sm6150.xml"],
-    defaults: ["hidl_defaults"],
+    defaults: ["samsung_header_path_defaults"],
     relative_install_path: "hw",
     // FIXME: this should be 'vendor: true' for modules that will eventually be
     // on AOSP.
     proprietary: true,
-    local_include_dirs: ["include"],
     srcs: [
         "GloveMode.cpp",
         "HighTouchPollingRate.cpp",
