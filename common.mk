@@ -38,17 +38,14 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.audio@6.0-impl.sm6150 \
     android.hardware.audio.effect@6.0-impl \
-    android.hardware.audio.common-util.vendor \
     android.hardware.audio.service \
     android.hardware.bluetooth.audio-impl \
-    android.media.audio.common.types-V2-cpp \
     audio.primary.default \
     audio.primary.sm6150:32 \
     audio.r_submix.default \
     audio.usb.default \
     cplay \
     libaudiofoundation \
-    libaudioroute \
     libaudioutils \
     libtinyalsa \
     libtinycompress \
@@ -82,40 +79,13 @@ PRODUCT_COPY_FILES += \
     frameworks/av/services/audiopolicy/config/r_submix_audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/r_submix_audio_policy_configuration.xml \
     frameworks/av/services/audiopolicy/config/usb_audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/usb_audio_policy_configuration.xml \
 
-# Automotive/Gearhead
-PRODUCT_PACKAGES += \
-    android.hardware.automotive.vehicle@2.0.vendor \
-    android.hardware.automotive.vehicle@2.0-manager-lib \
-
 # Bluetooth
 PRODUCT_PACKAGES += \
-    android.hardware.bluetooth@1.0 \
-    android.hardware.bluetooth@1.0.vendor \
     aptxalsOverlay \
-    audio.bluetooth.default \
-    libbluetooth_audio_session \
-    vendor.qti.hardware.bluetooth_audio@2.0.vendor \
-    vendor.qti.hardware.btconfigstore@1.0.vendor \
-    vendor.qti.hardware.btconfigstore@2.0.vendor \
 
 # Camera
 PRODUCT_PACKAGES += \
-    android.frameworks.cameraservice.common@2.0.vendor \
-    android.frameworks.cameraservice.device@2.0.vendor \
-    android.frameworks.cameraservice.service@2.1.vendor \
-    android.hardware.camera.device@3.7.vendor \
     android.hardware.camera.provider-service_32.samsung \
-    android.hardware.camera.provider@2.7.vendor \
-    libcamera2ndk_vendor \
-    libcamera_metadata.vendor \
-    libdng_sdk \
-    libdng_sdk.vendor \
-    libgui_vendor:32 \
-    libgrallocusage.vendor \
-    libstdc++ \
-    libstdc++_vendor \
-    vendor.qti.hardware.camera.device@1.0.vendor \
-    vendor.qti.hardware.camera.postproc@1.0.vendor \
 
 # CAS
 PRODUCT_PACKAGES += \
@@ -153,7 +123,6 @@ PRODUCT_PACKAGES += \
 # DRM
 PRODUCT_PACKAGES += \
     android.hardware.drm-service.clearkey \
-    android.hardware.drm@1.3.vendor \
 
 # Fastbootd
 TARGET_BOARD_FASTBOOT_INFO_FILE := $(COMMON_PATH)/fastboot-info.txt
@@ -163,8 +132,6 @@ PRODUCT_PACKAGES += \
 
 # Fingerprint
 PRODUCT_PACKAGES += \
-    android.hardware.biometrics.face@1.0.vendor \
-    android.hardware.biometrics.fingerprint@2.1.vendor \
     android.hardware.biometrics.fingerprint-service.samsung \
 
 # FM
@@ -182,10 +149,6 @@ PRODUCT_PACKAGES += \
     android.hardware.gatekeeper@1.0-impl \
     android.hardware.gatekeeper@1.0-service \
 
-# GNSS/GPS
-PRODUCT_PACKAGES += \
-    android.hardware.gnss@2.1.vendor \
-
 # Graphics
 PRODUCT_PACKAGES += \
     android.hardware.graphics.composer@2.4-hal \
@@ -194,50 +157,22 @@ PRODUCT_PACKAGES += \
     android.hardware.graphics.mapper@4.0-impl-qti-display \
     gralloc.sm6150 \
     hwcomposer.sm6150 \
-    libdisplayconfig.qti \
-    libdisplayconfig.system.qti \
-    libqdMetaData \
-    libqdMetaData.system \
     libdrmclearkeyplugin \
     libsdmcore \
     libsdmutils \
     libion \
-    libion.vendor \
     libvulkan \
-    vendor.display.config@1.11.vendor \
-    vendor.display.config@2.0.vendor \
-    vendor.qti.hardware.capabilityconfigstore@1.0.vendor \
-    vendor.qti.hardware.display.allocator-service \
-    vendor.qti.hardware.display.mapper@1.0.vendor \
-    vendor.qti.hardware.display.mapper@1.1.vendor \
-    vendor.qti.hardware.display.mapper@2.0.vendor \
-    vendor.qti.hardware.display.mapper@3.0.vendor \
-    vendor.qti.hardware.display.mapper@4.0.vendor \
 
 # Health
 PRODUCT_PACKAGES += \
     android.hardware.health-service.samsung \
     android.hardware.health-service.samsung-recovery \
-    android.hardware.health@2.1.vendor \
     vendor.lineage.health-service.default \
-
-# HIDL
-PRODUCT_PACKAGES += \
-    android.hidl.allocator@1.0.vendor \
-    android.hidl.base@1.0 \
-    android.hidl.base@1.0.vendor \
-    android.hidl.memory@1.0.vendor \
-    libhidltransport \
-    libhidltransport.vendor \
-    libhwbinder \
-    libhwbinder.vendor \
 
 # IPACM
 PRODUCT_PACKAGES += \
     ipacm \
     IPACM_cfg.xml \
-    libipanat \
-    liboffloadhal \
 
 # Keylayout
 PRODUCT_COPY_FILES += \
@@ -246,8 +181,6 @@ PRODUCT_COPY_FILES += \
 # Keymaster
 PRODUCT_PACKAGES += \
     android.hardware.keymaster@4.0-service.samsung \
-    libkeymaster4support.vendor:64 \
-    libkeymaster4_1support.vendor:64 \
 
 # Lights
 PRODUCT_PACKAGES += \
@@ -258,11 +191,6 @@ PRODUCT_PACKAGES += \
     vendor.lineage.livedisplay@2.0-service.samsung-qcom.sm6150 \
 
 # Media
-PRODUCT_PACKAGES += \
-    libavservices_minijail.vendor \
-    libcodec2_vndk.vendor \
-    libsfplugin_ccodec \
-
 PRODUCT_COPY_FILES += \
     $(COMMON_PATH)/rootdir/vendor/etc/media_codecs.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs.xml \
     $(COMMON_PATH)/rootdir/vendor/etc/media_codecs_c2_sec.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_c2_sec.xml \
@@ -293,16 +221,9 @@ PRODUCT_PACKAGES += \
     android.hardware.memtrack@1.0-service \
     memtrack.sm6150 \
 
-# Net
-PRODUCT_PACKAGES += \
-    android.system.net.netd@1.0 \
-    android.system.net.netd@1.1 \
-    netutils-wrapper-1.0 \
-
 # NFC
 PRODUCT_PACKAGES += \
     com.android.nfc_extras \
-    libchrome.vendor \
     libnfc-nci \
     libnfc_nci_jni \
     NfcNci \
@@ -322,8 +243,6 @@ PRODUCT_PACKAGES += \
     libOmxVdec \
     libOmxVenc \
     libOmxVidcCommon \
-    libstagefright_softomx_plugin.vendor \
-    libstagefright_softomx.vendor \
     libstagefrighthw \
 
 # Overlays
@@ -336,8 +255,6 @@ PRODUCT_PACKAGE_OVERLAYS += \
 # Perf
 PRODUCT_PACKAGES += \
     libqti-perfd-client \
-    vendor.qti.hardware.perf@2.2 \
-    vendor.qti.hardware.perf@2.2.vendor \
 
 # Permissions
 PRODUCT_COPY_FILES += \
@@ -395,34 +312,13 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     android.hardware.power-service-qti.sm6150 \
     android.hardware.power.stats@1.0-service.mock \
-    android.hardware.power@1.3.vendor \
 
 PRODUCT_COPY_FILES += \
     $(COMMON_PATH)/rootdir/vendor/etc/powerhint.xml:$(TARGET_COPY_OUT_VENDOR)/etc/powerhint.xml \
 
-# Protobuf
-PRODUCT_PACKAGES += \
-    libprotobuf-cpp-full-3.9.1-vendorcompat \
-    libprotobuf-cpp-lite-3.9.1-vendorcompat \
-
 # Public Libraries
 PRODUCT_COPY_FILES += \
     $(COMMON_PATH)/rootdir/vendor/etc/public.libraries.txt:$(TARGET_COPY_OUT_VENDOR)/etc/public.libraries.txt \
-
-# QMI
-TARGET_FWK_SUPPORTS_FULL_VALUEADDS := true
-
-PRODUCT_PACKAGES += \
-    libcurl.vendor:64 \
-    libjson \
-    libjsoncpp.vendor:64 \
-    libpng.vendor:32 \
-    libprocessgroup.vendor \
-    libqti_vndfwk_detect \
-    libqti_vndfwk_detect.vendor \
-    libsysutils.vendor:64 \
-    libvndfwk_detect_jni.qti \
-    libvndfwk_detect_jni.qti.vendor \
 
 # QTI
 PRODUCT_COPY_FILES += \
@@ -485,20 +381,6 @@ PRODUCT_PACKAGES += \
 
 # RIL
 PRODUCT_PACKAGES += \
-    android.hardware.radio@1.5.vendor \
-    android.hardware.radio.config@1.2.vendor \
-    android.hardware.radio.config-V1-ndk.vendor:64 \
-    android.hardware.radio.data-V1-ndk.vendor:64 \
-    android.hardware.radio.deprecated@1.0.vendor \
-    android.hardware.radio.messaging-V1-ndk.vendor:64 \
-    android.hardware.radio.modem-V1-ndk.vendor:64 \
-    android.hardware.radio.network-V1-ndk.vendor:64 \
-    android.hardware.radio.sim-V1-ndk.vendor:64 \
-    android.hardware.radio.voice-V1-ndk.vendor:64 \
-    android.hardware.secure_element@1.0.vendor \
-    libnetutils.vendor:64 \
-    librilutils \
-    libsqlite.vendor:64 \
     secril_config_svc \
 
 # Seccomp Policy
@@ -513,10 +395,7 @@ PRODUCT_COPY_FILES += \
 
 # Sensors
 PRODUCT_PACKAGES += \
-    android.frameworks.sensorservice@1.0.vendor \
     android.hardware.sensors-service.samsung-multihal \
-    android.hardware.sensors@2.0-ScopedWakelock.vendor \
-    libsensorndkbridge \
     sensors.samsung \
 
 PRODUCT_COPY_FILES += \
@@ -552,12 +431,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.usb@1.3-service.dual_role_usb \
     android.hardware.usb-service.samsung \
-    android.hardware.usb@1.1.vendor \
-
-# Vendor Service Manager
-PRODUCT_PACKAGES += \
-    libcrypto-v33 \
-    vndservicemanager \
 
 # Vibrator
 PRODUCT_PACKAGES += \
@@ -573,8 +446,6 @@ PRODUCT_PACKAGES += \
     libwpa_client \
     SoftapOverlay \
     TetheringConfigOverlay \
-    vendor.qti.hardware.wifi.hostapd@1.1.vendor \
-    vendor.qti.hardware.wifi.supplicant@2.0.vendor \
     WifiOverlay \
     wpa_supplicant \
     wpa_supplicant.conf \
@@ -584,11 +455,6 @@ PRODUCT_COPY_FILES += \
     $(COMMON_PATH)/rootdir/vendor/etc/wifi/p2p_supplicant_overlay.conf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/p2p_supplicant_overlay.conf \
     $(COMMON_PATH)/rootdir/vendor/etc/wifi/WCNSS_qcom_cfg.ini:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/WCNSS_qcom_cfg.ini \
     $(COMMON_PATH)/rootdir/vendor/etc/wifi/wpa_supplicant_overlay.conf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/wpa_supplicant_overlay.conf \
-
-# WiFi Display
-PRODUCT_PACKAGES += \
-    libnl \
-    libwfdaac_vendor \
 
 # Get non-open-source specific aspects
 $(call inherit-product, vendor/samsung/a71-common/a71-common-vendor.mk)
