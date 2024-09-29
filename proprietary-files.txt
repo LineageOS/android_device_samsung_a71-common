@@ -30,10 +30,6 @@ vendor/lib/rfsa/adsp/libscveObjectSegmentation_skel.so
 vendor/lib/rfsa/adsp/libscveT2T_skel.so
 vendor/lib/rfsa/adsp/libsnpe_dsp_v65_domains_v2_skel.so
 vendor/lib/rfsa/adsp/libsnpe_dsp_v66_domains_v2_skel.so
-vendor/lib/rfsa/adsp/libsns_device_mode_skel.so
-vendor/lib/rfsa/adsp/libsns_low_lat_stream_skel.so
-vendor/lib64/rfsa/adsp/libsns_device_mode_skel.so
-vendor/lib64/rfsa/adsp/libsns_low_lat_stream_skel.so
 
 # Audio
 system_ext/framework/audiosphere.jar
@@ -65,6 +61,8 @@ vendor/lib/librecordalive.so
 vendor/lib/libsamsungVoipResampler.so
 vendor/lib/libsecaudiocoreutils.so
 vendor/lib/libsecaudioinfo.so
+vendor/lib/libspatializerparamstorage.so
+vendor/lib/libspeakercalibration.so
 vendor/lib/libsurround_3mic_proc.so
 vendor/lib/vendor.qti.hardware.audiohalext@1.0.so
 vendor/lib/vendor.samsung.hardware.audio@1.0.so
@@ -86,6 +84,8 @@ vendor/lib64/libprofileparamstorage.so
 vendor/lib64/libqtigef.so
 vendor/lib64/libsecaudiocoreutils.so
 vendor/lib64/libsecaudioinfo.so
+vendor/lib64/libspatializerparamstorage.so
+vendor/lib64/libspeakercalibration.so
 vendor/lib64/vendor.samsung.hardware.audio@1.0.so
 
 # Audio SoundFX
@@ -150,6 +150,20 @@ vendor/lib64/com.qualcomm.qti.ant@1.0.so;MODULE_SUFFIX=_vendor
 vendor/firmware/apbtfw11.tlv
 vendor/firmware/apnv11.bin
 
+# Camera
+vendor/lib/libarcsoft_stereodistancemeasure.so
+vendor/lib/libbeautyshot.arcsoft.so
+vendor/lib/libmpbase.so
+vendor/lib/libpadm.so
+vendor/lib/libsavscmn.so
+vendor/lib/vendor.qti.hardware.cacert@1.0.so
+vendor/lib64/libbeautyshot.arcsoft.so
+vendor/lib64/libc++_shared.so
+vendor/lib64/libmpbase.so
+vendor/lib64/libpadm.so
+vendor/lib64/libsavscmn.so
+vendor/lib64/vendor.qti.hardware.cacert@1.0.so
+
 # Camera (Firmware)
 vendor/firmware/CAMERA_ICP.elf
 vendor/firmware/Data.msc
@@ -179,7 +193,7 @@ vendor/lib64/hw/vendor.qti.hardware.capabilityconfigstore@1.0-impl.so
 # Device Health
 vendor/bin/hw/android.hardware.health@2.1-service-samsung
 vendor/etc/init/android.hardware.health@2.1-service-samsung.rc
-vendor/lib64/hw/android.hardware.health@2.0-impl-2.1-samsung.so|9f9b89e7898eb390d213c39c7d3d31bc72d68b34
+vendor/lib64/hw/android.hardware.health@2.0-impl-2.1-samsung.so
 vendor/lib64/vendor.samsung.hardware.health@2.0.so
 
 # Display (HDR)
@@ -243,6 +257,7 @@ vendor/lib/libhdcp2p2prov.so
 vendor/lib/libhdcpsrm.so
 vendor/lib/liboemcrypto.so
 vendor/lib/libwvhidl.so
+vendor/lib64/libcpion.so
 vendor/lib64/libhdcp1prov.so
 vendor/lib64/libhdcp2p2prov.so
 vendor/lib64/libhdcpsrm.so
@@ -272,15 +287,7 @@ vendor/lib64/libsysmon_cdsp_skel.so
 vendor/lib64/vendor.qti.hardware.dsp@1.0.so
 
 # FM
--system_ext/lib/fm_helium.so
--system_ext/lib/libfm-hci.so
--system_ext/lib/vendor.qti.hardware.fm@1.0.so
--system_ext/lib64/fm_helium.so
--system_ext/lib64/libfm-hci.so
--system_ext/lib64/vendor.qti.hardware.fm@1.0.so
-vendor/lib/hw/vendor.qti.hardware.fm@1.0-impl.so
 vendor/lib/vendor.qti.hardware.fm@1.0.so
-vendor/lib64/hw/vendor.qti.hardware.fm@1.0-impl.so
 vendor/lib64/vendor.qti.hardware.fm@1.0.so
 
 # Gatekeeper
@@ -304,6 +311,7 @@ vendor/etc/sap.conf
 vendor/lib/hw/android.hardware.gnss@2.1-impl-qti.so
 vendor/lib/hw/vendor.samsung.hardware.gnss@2.0-impl-sec.so
 vendor/lib/libbatching.so
+vendor/lib/libcacertclient.so
 vendor/lib/libcdfw.so
 vendor/lib/libcdfw_remote_api.so
 vendor/lib/libdataitems.so
@@ -338,6 +346,7 @@ vendor/lib/vendor.samsung.hardware.gnss@2.0.so
 vendor/lib64/hw/android.hardware.gnss@2.1-impl-qti.so
 vendor/lib64/hw/vendor.samsung.hardware.gnss@2.0-impl-sec.so
 vendor/lib64/libbatching.so
+vendor/lib64/libcacertclient.so
 vendor/lib64/libcdfw.so
 vendor/lib64/libcdfw_remote_api.so
 vendor/lib64/libdataitems.so
@@ -372,11 +381,11 @@ vendor/lib64/vendor.qti.hardware.qccsyshal@1.0.so
 vendor/lib64/vendor.samsung.hardware.gnss@2.0.so
 
 # Graphics (Adreno)
-vendor/lib/egl/eglSubDriverAndroid.so
 vendor/lib/egl/libEGL_adreno.so;SYMLINK=vendor/lib/libEGL_adreno.so
-vendor/lib/egl/libGLESv1_CM_adreno.so
 vendor/lib/egl/libGLESv2_adreno.so;SYMLINK=vendor/lib/libGLESv2_adreno.so
 vendor/lib/egl/libq3dtools_adreno.so;SYMLINK=vendor/lib/libq3dtools_adreno.so
+vendor/lib/egl/eglSubDriverAndroid.so
+vendor/lib/egl/libGLESv1_CM_adreno.so
 vendor/lib/egl/libq3dtools_esx.so
 vendor/lib/libC2D2.so
 vendor/lib/libCB.so
@@ -389,11 +398,11 @@ vendor/lib/libgsl.so
 vendor/lib/libllvm-glnext.so
 vendor/lib/libllvm-qcom.so
 vendor/lib/libpvr.so
-vendor/lib64/egl/eglSubDriverAndroid.so
 vendor/lib64/egl/libEGL_adreno.so;SYMLINK=vendor/lib64/libEGL_adreno.so
-vendor/lib64/egl/libGLESv1_CM_adreno.so
 vendor/lib64/egl/libGLESv2_adreno.so;SYMLINK=vendor/lib64/libGLESv2_adreno.so
 vendor/lib64/egl/libq3dtools_adreno.so;SYMLINK=vendor/lib64/libq3dtools_adreno.so
+vendor/lib64/egl/eglSubDriverAndroid.so
+vendor/lib64/egl/libGLESv1_CM_adreno.so
 vendor/lib64/egl/libq3dtools_esx.so
 vendor/lib64/libC2D2.so
 vendor/lib64/libCB.so
@@ -433,8 +442,14 @@ vendor/firmware/ipa_fws.mdt
 
 # Machine Learning
 vendor/etc/lm/AdaptLaunchFeature.xml
+vendor/lib/libperfconfig.so
+vendor/lib/libperfgluelayer.so
+vendor/lib/libqti-util.so
 vendor/lib64/liblearningmodule.so
 vendor/lib64/libmeters.so
+vendor/lib64/libperfconfig.so
+vendor/lib64/libperfgluelayer.so
+vendor/lib64/libqti-util.so
 vendor/lib64/libreffeature.so
 
 # Neural Networks
@@ -467,12 +482,12 @@ vendor/lib/libOmxDsdDec.so
 vendor/lib/libOmxEvrcDec.so
 vendor/lib/libOmxG711Dec.so
 vendor/lib/libOmxQcelp13Dec.so
-vendor/lib/libOmxSwVdec.so
-vendor/lib/libOmxSwVencMpeg4.so
 vendor/lib/libOmxVpp.so;DISABLE_CHECKELF
 vendor/lib/libOmxWmaDec.so
+vendor/lib/libc2dcolorconvert.so
 vendor/lib/libdsd2pcm.so
 vendor/lib/libmmosal.so;MODULE_SUFFIX=_vendor
+vendor/lib/libplatformconfig.so
 vendor/lib/libswvdec.so
 vendor/lib64/libAlacSwDec.so
 vendor/lib64/libApeSwDec.so
@@ -488,11 +503,11 @@ vendor/lib64/libOmxApeDecSw.so
 vendor/lib64/libOmxEvrcDec.so
 vendor/lib64/libOmxG711Dec.so
 vendor/lib64/libOmxQcelp13Dec.so
-vendor/lib64/libOmxSwVdec.so
-vendor/lib64/libOmxSwVencMpeg4.so
 vendor/lib64/libOmxVpp.so;DISABLE_CHECKELF
 vendor/lib64/libOmxWmaDec.so
+vendor/lib64/libc2dcolorconvert.so
 vendor/lib64/libmmosal.so;MODULE_SUFFIX=_vendor
+vendor/lib64/libplatformconfig.so
 vendor/lib64/libswvdec.so
 
 # Peripheral Manager
@@ -505,12 +520,6 @@ vendor/lib64/libperipheral_client.so
 bin/lpm
 lib64/libmaet.so
 lib64/libsxqk_skia.so
-
-# Qdutils
-system_ext/lib/vendor.qti.hardware.qdutils_disp@1.0.so
-system_ext/lib64/vendor.qti.hardware.qdutils_disp@1.0.so
-vendor/lib/vendor.qti.hardware.qdutils_disp@1.0.so
-vendor/lib64/vendor.qti.hardware.qdutils_disp@1.0.so
 
 # Qualcomm MSM Interface
 vendor/bin/irsc_util
@@ -543,13 +552,11 @@ vendor/lib64/libqmi_client_qmux.so
 vendor/lib64/libqmi_common_so.so
 vendor/lib64/libqmi_csi.so
 vendor/lib64/libqmi_encdec.so
-vendor/lib64/libqmiservices.so
 vendor/lib64/libqmiservices-ext.so
 vendor/lib64/libqmiservices-sem-ext.so
+vendor/lib64/libqmiservices.so
 
 # Radio
-lib/libnetutils.so:vendor/lib/libnetutils.so
-lib64/libnetutils.so:vendor/lib64/libnetutils.so
 vendor/bin/hw/rild
 vendor/bin/adpl
 vendor/bin/netmgrd
@@ -586,6 +593,8 @@ vendor/lib/libsecril-client.so
 vendor/lib/libxml.so
 vendor/lib/vendor.qti.hardware.data.connection@1.0.so
 vendor/lib/vendor.qti.hardware.data.connection@1.1.so
+vendor/lib64/libSemDataProps.so
+vendor/lib64/libSemTelephonyProps.so
 vendor/lib64/libconfigdb.so
 vendor/lib64/libdsi_netctrl.so
 vendor/lib64/libengmode_client.so
@@ -597,12 +606,10 @@ vendor/lib64/libpdnotifier.so
 vendor/lib64/libqcmaputils.so
 vendor/lib64/libqrtr.so
 vendor/lib64/libqsocket.so
-vendor/lib64/librmnetctl.so
 vendor/lib64/libril_sem.so
+vendor/lib64/librmnetctl.so
 vendor/lib64/libsec-ril.so|21bf98711ceefc61e88158a344cf82f8ccbe8253
 vendor/lib64/libsec_semRil.so
-vendor/lib64/libSemDataProps.so
-vendor/lib64/libSemTelephonyProps.so
 vendor/lib64/libsecril-client.so
 vendor/lib64/libvkmanager_vendor.so
 vendor/lib64/libxml.so
@@ -611,9 +618,6 @@ vendor/lib64/vendor.qti.hardware.data.connection@1.1.so
 vendor/lib64/vendor.samsung.hardware.radio.bridge@2.0.so
 vendor/lib64/vendor.samsung.hardware.radio.bridge@2.1.so
 vendor/lib64/vendor.samsung.hardware.radio.channel@2.0.so
-vendor/lib64/vendor.samsung.hardware.radio@2.0.so
-vendor/lib64/vendor.samsung.hardware.radio@2.1.so
-vendor/lib64/vendor.samsung.hardware.radio@2.2.so
 
 # SCVE
 vendor/lib/libscveCommon.so
@@ -638,15 +642,21 @@ vendor/lib/libsecnativefeature.so
 vendor/lib64/libsecnativefeature.so
 
 # Sensors
+vendor/lib/libsensorlistener.so
+vendor/lib/libsensorndkbridge.so
 vendor/lib/libsensorslog.so
 vendor/lib/libsns_device_mode_stub.so
 vendor/lib/libsns_fastRPC_util.so
 vendor/lib/libsns_low_lat_stream_stub.so
 vendor/lib/libsns_registry_skel.so
 vendor/lib/libsnsapi.so
+vendor/lib/libsnsdiaglog.so
 vendor/lib/libssc.so
 vendor/lib/libssc_default_listener.so
+vendor/lib/sensors.ssc.so
 vendor/lib64/libnanopb.so
+vendor/lib64/libsensorlistener.so
+vendor/lib64/libsensorndkbridge.so
 vendor/lib64/libsensorslog.so
 vendor/lib64/libsns_device_mode_stub.so
 vendor/lib64/libsns_fastRPC_util.so
@@ -656,6 +666,7 @@ vendor/lib64/libsnsapi.so
 vendor/lib64/libsnsdiaglog.so
 vendor/lib64/libssc.so
 vendor/lib64/libssc_default_listener.so
+vendor/lib64/sensors.ssc.so
 
 # Soundtrigger
 vendor/lib/libaudio_soundtrigger.so
@@ -738,13 +749,6 @@ vendor/bin/hw/vendor.qti.hardware.tui_comm@1.0-service-qti
 vendor/etc/init/vendor.qti.hardware.tui_comm@1.0-service-qti.rc
 vendor/lib/vendor.qti.hardware.tui_comm@1.0.so
 vendor/lib64/vendor.qti.hardware.tui_comm@1.0.so
-
-# Voice
-system_ext/framework/vendor.qti.voiceprint-V1.0-java.jar
-system_ext/lib/vendor.qti.voiceprint@1.0.so
-system_ext/lib64/vendor.qti.voiceprint@1.0.so
-vendor/lib/vendor.qti.voiceprint@1.0.so
-vendor/lib64/vendor.qti.voiceprint@1.0.so
 
 # VPP
 vendor/bin/vppservice
