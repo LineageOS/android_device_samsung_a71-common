@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "20ba4fd3_221a8d18",
+        "filename": "common.mk",
+        "patchSetId": 5
+      },
+      "lineNbr": 97,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2024-09-29T18:18:57Z",
+      "side": 1,
+      "message": "This is a dep, iirc",
+      "revId": "f99f91e74cb95e03caed325e89374b153c0f11d7",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
