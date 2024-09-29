@@ -34,6 +34,24 @@
       "parentUuid": "27aaaa25_cd39e80a",
       "revId": "fef77f6e83236a8effdd09b480911703d7b936ac",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "824fa146_3505ec2a",
+        "filename": "proprietary-files.txt",
+        "patchSetId": 1
+      },
+      "lineNbr": 160,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2024-09-29T15:25:32Z",
+      "side": 1,
+      "message": "That\u0027s correct. Again, you can figure it out by looking at dependencies in the new vendor Android.bp",
+      "parentUuid": "d30e19de_fc41564e",
+      "revId": "fef77f6e83236a8effdd09b480911703d7b936ac",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
