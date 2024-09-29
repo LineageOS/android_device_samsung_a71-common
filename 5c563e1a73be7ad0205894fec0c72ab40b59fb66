@@ -20,6 +20,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "f6412b38_279f2d14",
+        "filename": "common.mk",
+        "patchSetId": 5
+      },
+      "lineNbr": 210,
+      "author": {
+        "id": 26928
+      },
+      "writtenOn": "2024-09-29T21:03:39Z",
+      "side": 0,
+      "message": "@bgcngm@gmail.com Well I fixed, now it boots without these libs, the only thing left is renaming audio.primary hal thingy.",
+      "parentUuid": "16360010_20cad6b5",
+      "revId": "5c563e1a73be7ad0205894fec0c72ab40b59fb66",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "2ecb5ba9_41fc25c6",
         "filename": "common.mk",
         "patchSetId": 5

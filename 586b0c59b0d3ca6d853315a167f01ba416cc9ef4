@@ -24,6 +24,30 @@
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "b3e614a1_172953fe",
+        "filename": "common.mk",
+        "patchSetId": 2
+      },
+      "lineNbr": 41,
+      "author": {
+        "id": 26928
+      },
+      "writtenOn": "2024-09-29T21:03:39Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "388d47e3_6b4a2951",
+      "range": {
+        "startLine": 41,
+        "startChar": 4,
+        "endLine": 41,
+        "endChar": 47
+      },
+      "revId": "586b0c59b0d3ca6d853315a167f01ba416cc9ef4",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "002ce007_34d93d2a",
@@ -85,6 +109,30 @@
       "side": 1,
       "message": "You can drop it because it\u0027s likely a depedendecy of something else. You can cross check in the newly regenerated vendor Android.bp.",
       "parentUuid": "70dca728_d1544810",
+      "range": {
+        "startLine": 44,
+        "startChar": 4,
+        "endLine": 44,
+        "endChar": 43
+      },
+      "revId": "586b0c59b0d3ca6d853315a167f01ba416cc9ef4",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b9f76e2e_19dff325",
+        "filename": "common.mk",
+        "patchSetId": 2
+      },
+      "lineNbr": 44,
+      "author": {
+        "id": 26928
+      },
+      "writtenOn": "2024-09-29T21:03:39Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "88d0a6a7_26da0484",
       "range": {
         "startLine": 44,
         "startChar": 4,
