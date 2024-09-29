@@ -179,7 +179,7 @@ vendor/lib64/hw/vendor.qti.hardware.capabilityconfigstore@1.0-impl.so
 # Device Health
 vendor/bin/hw/android.hardware.health@2.1-service-samsung
 vendor/etc/init/android.hardware.health@2.1-service-samsung.rc
-vendor/lib64/hw/android.hardware.health@2.0-impl-2.1-samsung.so|365c0a6bd95c3a12d5acfaa0cc8d72929cb8ea33
+vendor/lib64/hw/android.hardware.health@2.0-impl-2.1-samsung.so|9f9b89e7898eb390d213c39c7d3d31bc72d68b34
 vendor/lib64/vendor.samsung.hardware.health@2.0.so
 
 # Display (HDR)
@@ -599,7 +599,7 @@ vendor/lib64/libqrtr.so
 vendor/lib64/libqsocket.so
 vendor/lib64/librmnetctl.so
 vendor/lib64/libril_sem.so
-vendor/lib64/libsec-ril.so
+vendor/lib64/libsec-ril.so|21bf98711ceefc61e88158a344cf82f8ccbe8253
 vendor/lib64/libsec_semRil.so
 vendor/lib64/libSemDataProps.so
 vendor/lib64/libSemTelephonyProps.so
