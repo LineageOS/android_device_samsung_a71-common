@@ -10,7 +10,6 @@ persist.vendor.audio.spkr.cal.duration=100
 persist.vendor.audio.spkr.cal.dynamic=true
 persist.vendor.audio.speaker.prot.enable=true
 persist.vendor.audio.spv3.enable=true
-ro.hardware.audio.primary=sm6150-samsung
 ro.vendor.audio.sdk.fluencetype=none
 ro.vendor.audio.sdk.ssr=false
 vendor.audio.adm.buffering.ms=2

@@ -38,10 +38,6 @@ function blob_fixup() {
             [ "$2" = "" ] && return 0
             "${PATCHELF}" --add-needed "libshim_sensorndkbridge.so" "${2}"
             ;;
-        vendor/lib/hw/audio.primary.sm6150-samsung.so)
-            [ "$2" = "" ] && return 0
-            "${PATCHELF}" --set-soname "audio.primary.sm6150-samsung.so" "${2}"
-            ;;
         vendor/lib64/hw/gatekeeper.mdfpp.so|vendor/lib64/libkeymaster_helper.so|vendor/lib64/libskeymaster4device.so)
             "${PATCHELF}" --replace-needed "libcrypto.so" "libcrypto-v33.so" "${2}"
             ;;
