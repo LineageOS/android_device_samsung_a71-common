@@ -437,8 +437,8 @@ vendor/firmware/ipa_fws.elf
 vendor/firmware/ipa_fws.mdt
 
 # Keymaster
--vendor/lib64/libkeymaster_helper.so|2485f8073dcc7117dff1f80605bd15148c1187e9
--vendor/lib64/libskeymaster4device.so|72bd574947d0312dcabb1a1b7fd10e6924ffd668
+vendor/lib64/libkeymaster_helper.so|2485f8073dcc7117dff1f80605bd15148c1187e9
+vendor/lib64/libskeymaster4device.so|72bd574947d0312dcabb1a1b7fd10e6924ffd668
 
 # Machine Learning
 vendor/etc/lm/AdaptLaunchFeature.xml
