@@ -41,7 +41,7 @@ vendor/lib/lib_SamsungRec_07010.so
 vendor/lib/lib_SoundAlive_3DPosition_ver202.so
 vendor/lib/lib_SoundAlive_AlbumArt_ver105.so
 vendor/lib/lib_SoundAlive_SRC384_ver320.so
-vendor/lib/lib_SoundAlive_play_plus_ver400.so
+vendor/lib/lib_SoundAlive_play_plus_ver400.so;DISABLE_CHECKELF
 vendor/lib/lib_SoundBooster_ver1050.so
 vendor/lib/lib_soundaliveresampler.so
 vendor/lib/libacdb-fts.so
@@ -70,7 +70,7 @@ vendor/lib64/hw/audio.sec_primary.default.so
 vendor/lib64/hw/vendor.samsung.hardware.audio@1.0-impl.so
 vendor/lib64/lib_SoundAlive_3DPosition_ver202.so
 vendor/lib64/lib_SoundAlive_AlbumArt_ver105.so
-vendor/lib64/lib_SoundAlive_play_plus_ver400.so
+vendor/lib64/lib_SoundAlive_play_plus_ver400.so;DISABLE_CHECKELF
 vendor/lib64/lib_SoundBooster_ver1050.so
 vendor/lib64/libacdb-fts.so
 vendor/lib64/libacdbloader.so
@@ -193,7 +193,7 @@ vendor/lib64/hw/vendor.qti.hardware.capabilityconfigstore@1.0-impl.so
 # Device Health
 vendor/bin/hw/android.hardware.health@2.1-service-samsung
 vendor/etc/init/android.hardware.health@2.1-service-samsung.rc
-vendor/lib64/hw/android.hardware.health@2.0-impl-2.1-samsung.so
+vendor/lib64/hw/android.hardware.health@2.0-impl-2.1-samsung.so;DISABLE_CHECKELF
 vendor/lib64/vendor.samsung.hardware.health@2.0.so
 
 # Display (HDR)
