@@ -34,7 +34,7 @@ vendor/lib/rfsa/adsp/libsnpe_dsp_v66_domains_v2_skel.so
 # Audio
 system_ext/framework/audiosphere.jar
 vendor/bin/audioflacapp
-vendor/lib/hw/audio.primary.sm6150.so
+vendor/lib/hw/audio.primary.sm6150.so:vendor/lib/hw/audio.primary.sm6150-samsung.so
 vendor/lib/hw/audio.sec_primary.default.so
 vendor/lib/hw/vendor.samsung.hardware.audio@1.0-impl.so
 vendor/lib/lib_SamsungRec_07010.so
