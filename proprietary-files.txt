@@ -32,7 +32,7 @@ vendor/lib/rfsa/adsp/libsnpe_dsp_v65_domains_v2_skel.so
 vendor/lib/rfsa/adsp/libsnpe_dsp_v66_domains_v2_skel.so
 
 # Audio
-system/system_ext/framework/audiosphere.jar
+system_ext/framework/audiosphere.jar
 vendor/bin/audioflacapp
 vendor/lib/hw/audio.primary.sm6150.so:vendor/lib/hw/audio.primary.qcom.so;FIX_SONAME
 vendor/lib/hw/audio.sec_primary.default.so
@@ -144,7 +144,7 @@ vendor/lib64/vendor.samsung.hardware.bluetooth.a2dpsink@1.0.so
 
 # Bluetooth (ANT+)
 vendor/lib/com.qualcomm.qti.ant@1.0.so
-vendor/lib64/com.qualcomm.qti.ant@1.0.so;MODULE_SUFFIX=_vendor
+vendor/lib64/com.qualcomm.qti.ant@1.0.so
 
 # Bluetooth (Firmware)
 vendor/firmware/apbtfw11.tlv
@@ -248,6 +248,8 @@ vendor/lib/libdualcam_optical_zoom_control.so
 vendor/lib/libdualcam_refocus_image.so
 vendor/lib/libdualcam_refocus_video.so
 vendor/lib/libdualcapture.so
+vendor/lib/libhigh_dynamic_range.so
+vendor/lib/libhigh_dynamic_range_bokeh.so
 vendor/lib/libjpegQtable_interface.so
 vendor/lib/liblivefocus_capture_engine.so
 vendor/lib/liblivefocus_capture_interface.so
@@ -357,8 +359,6 @@ vendor/lib64/libjnihelper.so
 vendor/lib64/libjpegQtable_interface.so
 vendor/lib64/liblivefocus_capture_engine.so
 vendor/lib64/liblivefocus_capture_interface.so
-vendor/lib64/liblivefocus_preview_engine.so
-vendor/lib64/liblivefocus_preview_interface.so
 vendor/lib64/liblow_light_hdr.so
 vendor/lib64/libmpbase.so
 vendor/lib64/libpadm.so
