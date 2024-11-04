@@ -16,6 +16,24 @@
       "message": "why are you reverting the indentation fix",
       "revId": "c0f6e6291ae8592664cdd1eac2ebb42b9e2d812f",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "2ddeeb7f_1c149ce1",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 9
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 26928
+      },
+      "writtenOn": "2024-11-04T16:47:27Z",
+      "side": 1,
+      "message": "due to that commit I showed on discord, that\u0027s why I did in a separate change at some point. ig guess no needed to re-open new one.",
+      "parentUuid": "336b58af_fbe6f93f",
+      "revId": "c0f6e6291ae8592664cdd1eac2ebb42b9e2d812f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
