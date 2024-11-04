@@ -22,6 +22,30 @@
       },
       "revId": "26d7a194a8d725a87a9b0bb72d37e80e76908f78",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "39c14e97_c04028d8",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 26928
+      },
+      "writtenOn": "2024-11-04T08:15:35Z",
+      "side": 1,
+      "message": "@priv.luk@gmail.com the thing is the old value isn\u0027t getting replaced after patching, I did a manual hex and it fixes sms.",
+      "parentUuid": "1f7068e1_35f466cb",
+      "range": {
+        "startLine": 11,
+        "startChar": 0,
+        "endLine": 11,
+        "endChar": 169
+      },
+      "revId": "26d7a194a8d725a87a9b0bb72d37e80e76908f78",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
