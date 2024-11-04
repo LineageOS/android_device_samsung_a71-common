@@ -46,6 +46,30 @@
       },
       "revId": "26d7a194a8d725a87a9b0bb72d37e80e76908f78",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "6bcafd3c_2e488260",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 10067
+      },
+      "writtenOn": "2024-11-04T08:32:58Z",
+      "side": 1,
+      "message": "can you send me patched and unpatched files on discord?",
+      "parentUuid": "39c14e97_c04028d8",
+      "range": {
+        "startLine": 11,
+        "startChar": 0,
+        "endLine": 11,
+        "endChar": 169
+      },
+      "revId": "26d7a194a8d725a87a9b0bb72d37e80e76908f78",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
