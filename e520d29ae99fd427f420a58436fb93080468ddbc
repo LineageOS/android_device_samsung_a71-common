@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "e2e167ab_503c61c0",
+        "filename": "proprietary-files.txt",
+        "patchSetId": 2
+      },
+      "lineNbr": 821,
+      "author": {
+        "id": 10067
+      },
+      "writtenOn": "2024-11-04T12:17:20Z",
+      "side": 1,
+      "message": "should be double pinned...no?",
+      "revId": "e520d29ae99fd427f420a58436fb93080468ddbc",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
