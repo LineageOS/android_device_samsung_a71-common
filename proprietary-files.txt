@@ -818,7 +818,7 @@ vendor/lib64/libqcmaputils.so
 vendor/lib64/libqrtr.so
 vendor/lib64/libqsocket.so
 vendor/lib64/libril_sem.so
-vendor/lib64/libsec-ril.so|27050dfa2a5a045673eed6112f188324b6c53ed3
+vendor/lib64/libsec-ril.so|21bf98711ceefc61e88158a344cf82f8ccbe8253
 vendor/lib64/libvkmanager_vendor.so
 vendor/lib64/libxml.so
 vendor/lib64/vendor.qti.hardware.data.connection@1.0.so
