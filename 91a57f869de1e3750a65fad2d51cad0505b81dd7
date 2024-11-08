@@ -16,6 +16,24 @@
       "message": "what are you pinning them for?",
       "revId": "91a57f869de1e3750a65fad2d51cad0505b81dd7",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "469f9181_8800d08d",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 26928
+      },
+      "writtenOn": "2024-11-08T16:43:09Z",
+      "side": 1,
+      "message": "ig I can remove the sha1sum(?)",
+      "parentUuid": "36316a2a_1312d111",
+      "revId": "91a57f869de1e3750a65fad2d51cad0505b81dd7",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
