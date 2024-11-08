@@ -379,6 +379,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     libsecril-client \
     secril_config_svc \
+    sehradiomanager \
 
 # Sensors
 PRODUCT_PACKAGES += \
