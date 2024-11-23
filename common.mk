@@ -396,6 +396,7 @@ PRODUCT_COPY_FILES += \
 # Soong Namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(COMMON_PATH) \
+    bootable/deprecated-ota \
     hardware/qcom-caf/common/libqti-perfd-client \
     hardware/samsung \
     vendor/qcom/opensource/usb/etc \
