@@ -374,6 +374,7 @@ vendor/lib64/vendor.qti.hardware.fm@1.0.so
 vendor/lib64/hw/gatekeeper.mdfpp.so|255c1b286e6685133bc7bf275cf68b5900607e1b|a7917484fb64dff7c6285ad43be392b8c0eea055
 
 # GNSS
+vendor/app/CACertService/CACertService.apk
 vendor/bin/hw/android.hardware.gnss@2.1-service-qti
 vendor/bin/loc_launcher
 vendor/bin/lowi-server;DISABLE_CHECKELF
