@@ -371,7 +371,7 @@ vendor/lib/vendor.qti.hardware.fm@1.0.so
 vendor/lib64/vendor.qti.hardware.fm@1.0.so
 
 # Gatekeeper
-vendor/lib64/hw/gatekeeper.mdfpp.so|255c1b286e6685133bc7bf275cf68b5900607e1b
+vendor/lib64/hw/gatekeeper.mdfpp.so|255c1b286e6685133bc7bf275cf68b5900607e1b|a7917484fb64dff7c6285ad43be392b8c0eea055
 
 # GNSS
 vendor/bin/hw/android.hardware.gnss@2.1-service-qti
@@ -519,8 +519,8 @@ vendor/firmware/ipa_fws.elf
 vendor/firmware/ipa_fws.mdt
 
 # Keymaster
-vendor/lib64/libkeymaster_helper.so|2485f8073dcc7117dff1f80605bd15148c1187e9
-vendor/lib64/libskeymaster4device.so|72bd574947d0312dcabb1a1b7fd10e6924ffd668
+vendor/lib64/libkeymaster_helper.so|2485f8073dcc7117dff1f80605bd15148c1187e9|ee0cacb5d585609fd91a1673e48073cd7a3f079e
+vendor/lib64/libskeymaster4device.so|72bd574947d0312dcabb1a1b7fd10e6924ffd668|e4dcee6306be79bb3ca271466afeabd1b0b966d5
 
 # Machine Learning
 vendor/etc/lm/AdaptLaunchFeature.xml
@@ -690,7 +690,7 @@ vendor/lib64/libqcmaputils.so
 vendor/lib64/libqrtr.so
 vendor/lib64/libqsocket.so
 vendor/lib64/libril_sem.so
-vendor/lib64/libsec-ril.so|21bf98711ceefc61e88158a344cf82f8ccbe8253
+vendor/lib64/libsec-ril.so|21bf98711ceefc61e88158a344cf82f8ccbe8253|21bf98711ceefc61e88158a344cf82f8ccbe8253
 vendor/lib64/libvkmanager_vendor.so
 vendor/lib64/libxml.so
 vendor/lib64/vendor.qti.hardware.data.connection@1.0.so
