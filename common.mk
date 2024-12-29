@@ -180,10 +180,6 @@ PRODUCT_PACKAGES += \
     ipacm \
     IPACM_cfg.xml \
 
-# Keylayout
-PRODUCT_COPY_FILES += \
-    $(COMMON_PATH)/rootdir/vendor/usr/keylayout/gpio-keys.kl:$(TARGET_COPY_OUT_VENDOR)/usr/keylayout/gpio-keys.kl \
-
 # Keymaster
 PRODUCT_PACKAGES += \
     android.hardware.keymaster@4.0-service.samsung \
