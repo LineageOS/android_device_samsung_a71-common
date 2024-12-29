@@ -56,7 +56,6 @@ PRODUCT_PACKAGES += \
 
 # Audio SoundFX
 PRODUCT_PACKAGES += \
-    libaudiopreprocessing \
     libbundlewrapper \
     libdownmix \
     libdynproc \
