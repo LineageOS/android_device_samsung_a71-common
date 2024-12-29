@@ -1,3 +1,8 @@
+# AAudio - MMAP
+aaudio.hw_burst_min_usec=2000
+aaudio.mmap_policy=2
+aaudio.mmap_exclusive_policy=2
+
 # Audio
 audio.offload.min.duration.secs=30
 persist.vendor.audio.avs.afe_api_version=2
