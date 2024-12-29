@@ -329,7 +329,7 @@ PRODUCT_COPY_FILES += \
 # Ramdisk
 PRODUCT_PACKAGES += \
     fstab.qcom \
-    fstab.qcom_ramdisk \
+    fstab.qcom.ramdisk \
     fingerprint_common.rc \
     init.fingerprint.rc \
     init.qcom.factory.rc \

@@ -7,6 +7,14 @@
 // Ramdisk's Hw
 
 prebuilt_etc {
+    name: "fstab.qcom",
+    src: "fstab.qcom",
+    soc_specific: true,
+    ramdisk_available: true,
+    vendor: true,
+}
+
+prebuilt_etc {
     name: "init.qcom.factory.rc",
     src: "init.qcom.factory.rc",
     sub_dir: "init/hw",
