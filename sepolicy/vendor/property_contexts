@@ -19,9 +19,6 @@ vendor.finger.down                               u:object_r:vendor_fingerprint_p
 persist.vendor.perfservice.                      u:object_r:vendor_mpctl_prop:s0
 ro.vendor.extension_library                      u:object_r:vendor_mpctl_prop:s0
 
-# Power
-vendor.powerhal.                                 u:object_r:vendor_power_prop:s0
-
 # RIL
 ro.vendor.epdg.support                           u:object_r:vendor_radio_prop:s0
 ro.vendor.multisim.                              u:object_r:vendor_radio_prop:s0

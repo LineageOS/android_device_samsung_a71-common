@@ -222,6 +222,9 @@ ro.oem_unlock_supported=1
 # Perf
 ro.vendor.extension_library=libqti-perfd-client.so
 
+# Power HAL
+vendor.powerhal.disp.idle_support=false
+
 # QCOM
 sys.config.hardcoder.enable=false
 sys.config.ibs.enable=false
