@@ -1,6 +1,3 @@
-# Filesystem
-fs_mgr.overlayfs.prefer_cache_backing_storage=true
-
 # Netflix
 ro.netflix.bsp_rev=Q6150-17263-1
 
