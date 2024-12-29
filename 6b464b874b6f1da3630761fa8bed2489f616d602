@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "e8578727_d8365c6b",
+        "filename": "init/Android.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2024-12-29T23:53:03Z",
+      "side": 0,
+      "message": "You should convert this to bp.",
+      "revId": "6b464b874b6f1da3630761fa8bed2489f616d602",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
