@@ -184,6 +184,9 @@ ro.frp.pst=/dev/block/persistent
 # Fs-verity
 ro.apk_verity.mode=2
 
+# FUSE passthrough
+persist.sys.fuse.passthrough.enable=true
+
 # Gatekeeper
 ro.hardware.gatekeeper=mdfpp
 
