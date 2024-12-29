@@ -1,0 +1,1 @@
+require board=sm7150|a71
