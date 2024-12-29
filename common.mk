@@ -364,8 +364,9 @@ PRODUCT_PACKAGES += \
 # Recovery
 AB_OTA_UPDATER := false
 
-PRODUCT_PACKAGES += \
-    init.recovery.qcom.rc \
+PRODUCT_COPY_FILES += \
+    $(COMMON_PATH)/init/init.recovery.qcom.rc:$(TARGET_COPY_OUT_RAMDISK)/init.recovery.qcom.rc \
+    $(COMMON_PATH)/init/init.recovery.qcom.rc:$(TARGET_COPY_OUT_RECOVERY)/root/init.recovery.qcom.rc \
 
 # RIL
 PRODUCT_PACKAGES += \
