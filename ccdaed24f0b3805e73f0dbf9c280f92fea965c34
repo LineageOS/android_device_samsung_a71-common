@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "4ae03df7_8f9b9337",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 26928
+      },
+      "writtenOn": "2024-12-30T00:28:03Z",
+      "side": 1,
+      "message": "See here: https://review.lineageos.org/c/LineageOS/android_device_samsung_a71-common/+/413277",
+      "revId": "ccdaed24f0b3805e73f0dbf9c280f92fea965c34",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
