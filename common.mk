@@ -55,16 +55,9 @@ PRODUCT_PACKAGES += \
 
 # Audio SoundFX
 PRODUCT_PACKAGES += \
-    libbundlewrapper \
-    libdownmix \
-    libdynproc \
-    libeffectproxy \
-    libldnhncr \
     libqcompostprocbundle \
     libqcomvisualizer \
     libqcomvoiceprocessing \
-    libreverbwrapper \
-    libvisualizer \
     libvolumelistener:32 \
 
 AUDIO_HAL_DIR := hardware/qcom-caf/sm8150/audio/configs
