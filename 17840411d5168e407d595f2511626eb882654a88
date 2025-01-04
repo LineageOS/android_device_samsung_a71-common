@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "ab586972_f7483ddf",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 26928
+      },
+      "writtenOn": "2025-01-04T23:38:09Z",
+      "side": 1,
+      "message": "@bgcngm@gmail.com which option to click in \"REBASE\" settings? to merge",
+      "revId": "17840411d5168e407d595f2511626eb882654a88",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
