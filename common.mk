@@ -60,24 +60,8 @@ PRODUCT_PACKAGES += \
     libqcomvoiceprocessing \
     libvolumelistener:32 \
 
-AUDIO_HAL_DIR := hardware/qcom-caf/sm8150/audio/configs
-
 PRODUCT_COPY_FILES += \
-    $(call find-copy-subdir-files,*,$(COMMON_PATH)/audio/configs/,$(TARGET_COPY_OUT_VENDOR)/etc/) \
-    $(AUDIO_HAL_DIR)/msmsteppe/audio_effects.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_effects.xml \
-    $(AUDIO_HAL_DIR)/msmsteppe/audio_platform_info.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_platform_info.xml \
-    $(AUDIO_HAL_DIR)/msmsteppe/audio_platform_info_qrd.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_platform_info_qrd.xml \
-    $(AUDIO_HAL_DIR)/msmsteppe/audio_tuning_mixer_tavil.txt:$(TARGET_COPY_OUT_VENDOR)/etc/audio_tuning_mixer_tavil.txt \
-    $(AUDIO_HAL_DIR)/msmsteppe/graphite_ipc_platform_info.xml:$(TARGET_COPY_OUT_VENDOR)/etc/graphite_ipc_platform_info.xml \
-    $(AUDIO_HAL_DIR)/msmsteppe/listen_platform_info.xml:$(TARGET_COPY_OUT_VENDOR)/etc/listen_platform_info.xml \
-    $(AUDIO_HAL_DIR)/msmsteppe/mixer_paths_qrd.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mixer_paths_qrd.xml \
-    $(AUDIO_HAL_DIR)/msmsteppe/mixer_paths_tavil.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mixer_paths_tavil.xml \
-    $(AUDIO_HAL_DIR)/msmsteppe/mixer_paths_wcd9375.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mixer_paths_wcd9375.xml \
-    $(AUDIO_HAL_DIR)/msmsteppe/mixer_paths_wcd9375qrd.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mixer_paths_wcd9375qrd.xml \
-    $(AUDIO_HAL_DIR)/msmsteppe/sound_trigger_mixer_paths.xml:$(TARGET_COPY_OUT_VENDOR)/etc/sound_trigger_mixer_paths.xml \
-    $(AUDIO_HAL_DIR)/msmsteppe/sound_trigger_mixer_paths_qrd.xml:$(TARGET_COPY_OUT_VENDOR)/etc/sound_trigger_mixer_paths_qrd.xml \
-    $(AUDIO_HAL_DIR)/msmsteppe/sound_trigger_mixer_paths_wcd9340.xml:$(TARGET_COPY_OUT_VENDOR)/etc/sound_trigger_mixer_paths_wcd9340.xml \
-    $(AUDIO_HAL_DIR)/msmsteppe/sound_trigger_platform_info.xml:$(TARGET_COPY_OUT_VENDOR)/etc/sound_trigger_platform_info.xml \
+    $(call find-copy-subdir-files,*,$(COMMON_PATH)/configs/audio/,$(TARGET_COPY_OUT_VENDOR)/etc/) \
 
 PRODUCT_COPY_FILES += \
     frameworks/av/services/audiopolicy/config/bluetooth_audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/bluetooth_audio_policy_configuration.xml \
