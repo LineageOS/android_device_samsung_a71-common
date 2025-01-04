@@ -8,7 +8,7 @@
 
 #include <hidl/MQDescriptor.h>
 #include <hidl/Status.h>
-#include <vendor/lineage/touch/1.0/IGloveMode.h>
+#include <vendor/lineage/touch/1.0/IHighTouchPollingRate.h>
 #include "samsung_touch.h"
 
 namespace vendor {
@@ -25,9 +25,9 @@ using ::android::hardware::Return;
 using ::android::hardware::Void;
 using ::android::sp;
 
-class GloveMode : public IGloveMode {
+class HighTouchPollingRate : public IHighTouchPollingRate {
   public:
-    GloveMode() = default;
+    HighTouchPollingRate() = default;
 
     bool isSupported();
 
