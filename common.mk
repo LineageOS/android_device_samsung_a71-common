@@ -392,6 +392,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.vibrator-service.samsung \
 
+# VPP
+PRODUCT_PACKAGES += \
+    vppservice \
+
 # WiFi
 PRODUCT_PACKAGES += \
     android.hardware.wifi-service \
