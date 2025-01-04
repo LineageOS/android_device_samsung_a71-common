@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "5e71ae74_531e18d7",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 26928
+      },
+      "writtenOn": "2025-01-04T22:30:18Z",
+      "side": 1,
+      "message": "We need a630 binaries apparently too, fix the boot again:\n01-04 21:47:51.846     0     0 E [1:        ueventd: 1274] ueventd: firmware: attempted /vendor/firmware/a630_sqe.fw, open failed: No such file or directory",
+      "revId": "23e88c35d63b417efb532fc9aeabd24711297a87",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
