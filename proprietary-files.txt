@@ -500,11 +500,7 @@ vendor/lib64/libllvm-qcom.so
 vendor/lib64/libpvr.so
 
 # Graphics (Adreno firmware)
-vendor/firmware/a612_rgmu.bin
 vendor/firmware/a618_gmu.bin
-vendor/firmware/a630_gmu.bin
-vendor/firmware/a630_sqe.fw
-vendor/firmware/a640_gmu.bin
 
 # Graphics (Vulkan)
 vendor/lib/hw/vulkan.adreno.so
