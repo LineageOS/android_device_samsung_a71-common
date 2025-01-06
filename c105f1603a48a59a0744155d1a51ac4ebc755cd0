@@ -16,6 +16,23 @@
       "message": "This is set in vendor/lineage.",
       "revId": "c105f1603a48a59a0744155d1a51ac4ebc755cd0",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b48099aa_789f25f9",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 26928
+      },
+      "writtenOn": "2025-01-06T22:02:38Z",
+      "side": 1,
+      "message": "aight",
+      "revId": "c105f1603a48a59a0744155d1a51ac4ebc755cd0",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
