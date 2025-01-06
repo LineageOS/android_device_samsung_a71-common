@@ -98,9 +98,6 @@ ro.vendor.bt.bdaddr_path=/mnt/vendor/efs/bluetooth/bt_addr
 persist.vendor.qcom.bluetooth.soc=cherokee
 vendor.qcom.bluetooth.soc=cherokee
 
-# CNE
-persist.vendor.cne.feature=0
-
 # Camera
 camera.disable_zsl_mode=1
 
