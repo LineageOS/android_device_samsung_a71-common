@@ -22,6 +22,30 @@
       },
       "revId": "a23b3bbab0460e93d5b1f81def4949926ed3a31b",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "dc200bf4_21524f82",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 3
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 26928
+      },
+      "writtenOn": "2025-01-12T21:13:53Z",
+      "side": 1,
+      "message": "the commit where I pick the missed configs. https://github.com/LineageOS/android_device_samsung_sm8250-common/commit/928aa40708e95b404bddc8999bfaeea1c5c1df2b",
+      "parentUuid": "bb267b8f_8a082f5f",
+      "range": {
+        "startLine": 11,
+        "startChar": 14,
+        "endLine": 11,
+        "endChar": 54
+      },
+      "revId": "a23b3bbab0460e93d5b1f81def4949926ed3a31b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
