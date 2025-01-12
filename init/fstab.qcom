@@ -61,4 +61,4 @@ odm	/odm	ext4	ro	wait,logical,first_stage_mount,readahead_size_kb=128
 /devices/platform/soc/a600000.ssusb/a600000.dwc3/xhci-hcd.0.auto*       auto                auto    defaults        voldmanaged=usb:auto
 
 # ZRAM
-/dev/block/zram0                                        none                    swap    defaults        zramsize=50%,max_comp_streams=8,zram_loopback_path=/data/unencrypted/zram_swap,zram_loopback_size=512M
+/dev/block/zram0                                        none                    swap    defaults        zramsize=2147483648,max_comp_streams=8,zram_loopback_path=/data/unencrypted/zram_swap,zram_loopback_size=512M
