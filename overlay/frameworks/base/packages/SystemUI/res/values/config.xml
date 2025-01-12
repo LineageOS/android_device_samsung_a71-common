@@ -21,8 +21,4 @@
          the sensor embedded in the power key and listening all the time
          causes a poor experience. -->
     <bool name="config_fingerprintWakeAndUnlock">false</bool>
-
-   <!-- Rounded Corner -->
-    <dimen name="rounded_corner_radius">4dp</dimen>
-    <dimen name="rounded_corner_content_padding">16dp</dimen>
 </resources>
