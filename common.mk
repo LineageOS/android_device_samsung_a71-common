@@ -328,6 +328,7 @@ PRODUCT_PACKAGES += \
     init.qcom.sh \
     init.qcom.usb.sh \
     init.qti.chg_policy.sh \
+    init.qti.early_init.sh \
 
 # Recovery
 AB_OTA_UPDATER := false
