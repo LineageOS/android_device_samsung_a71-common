@@ -1469,4 +1469,7 @@
         <item>mobile_foc,30,0,2,-1,true</item>
         <item>mobile_rcs,31,0,2,-1,true</item>
     </string-array>
+
+    <!-- Enable Zram writeback feature to allow unused pages in zram be written to flash. -->
+    <bool name="config_zramWriteback">true</bool>
 </resources>
