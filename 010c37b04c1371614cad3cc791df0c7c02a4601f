@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b01673b1_23e32437",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 5
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 26928
+      },
+      "writtenOn": "2025-01-13T16:18:26Z",
+      "side": 1,
+      "message": "@bgcngm@gmail.com so, is it good to go after the last edit?",
+      "revId": "010c37b04c1371614cad3cc791df0c7c02a4601f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
