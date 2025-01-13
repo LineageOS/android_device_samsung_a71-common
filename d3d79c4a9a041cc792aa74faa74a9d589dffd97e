@@ -1,4 +1,22 @@
 {
-  "comments": [],
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "4bef2b72_7e6cdd39",
+        "filename": "init/init.qcom.rc",
+        "patchSetId": 2
+      },
+      "lineNbr": 826,
+      "author": {
+        "id": 28223
+      },
+      "writtenOn": "2025-01-13T20:49:28Z",
+      "side": 1,
+      "message": "why’d you pick it if it’s not missing in the first place?",
+      "revId": "d3d79c4a9a041cc792aa74faa74a9d589dffd97e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ],
   "submitRequirementResults": []
 }
