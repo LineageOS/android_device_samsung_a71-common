@@ -219,6 +219,12 @@ PRODUCT_PACKAGE_OVERLAYS += \
     $(COMMON_PATH)/overlay \
     $(COMMON_PATH)/overlay-lineage \
 
+# Partitions
+PRODUCT_PACKAGES += \
+    vendor_dsp_mountpoint \
+    vendor_firmware_mnt_mountpoint \
+    vendor_firmware-modem_mountpoint \
+
 # Perf
 PRODUCT_PACKAGES += \
     libqti-perfd-client \
