@@ -1,0 +1,50 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "07496ab2_cecc7304",
+        "filename": "Android.mk",
+        "patchSetId": 2
+      },
+      "lineNbr": 31,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2025-01-19T18:39:25Z",
+      "side": 0,
+      "message": "It would be nicer if you pick I5b024f5482fc21d3f5aaa72787e41db9f0d3cf22 before this change.",
+      "range": {
+        "startLine": 29,
+        "startChar": 0,
+        "endLine": 31,
+        "endChar": 43
+      },
+      "revId": "304a72ae1627d7f6d9809d02a45c48f5beec0a2c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "4af53711_38c0e2d8",
+        "filename": "Android.mk",
+        "patchSetId": 2
+      },
+      "lineNbr": 54,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2025-01-19T18:39:25Z",
+      "side": 0,
+      "message": "What have you done regarding this part?",
+      "range": {
+        "startLine": 47,
+        "startChar": 0,
+        "endLine": 54,
+        "endChar": 53
+      },
+      "revId": "304a72ae1627d7f6d9809d02a45c48f5beec0a2c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
