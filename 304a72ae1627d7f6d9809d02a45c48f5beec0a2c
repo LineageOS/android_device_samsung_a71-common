@@ -24,6 +24,30 @@
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "e948ef4d_25333260",
+        "filename": "Android.mk",
+        "patchSetId": 2
+      },
+      "lineNbr": 31,
+      "author": {
+        "id": 26928
+      },
+      "writtenOn": "2025-01-19T18:51:39Z",
+      "side": 0,
+      "message": "Done",
+      "parentUuid": "07496ab2_cecc7304",
+      "range": {
+        "startLine": 29,
+        "startChar": 0,
+        "endLine": 31,
+        "endChar": 43
+      },
+      "revId": "304a72ae1627d7f6d9809d02a45c48f5beec0a2c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "4af53711_38c0e2d8",
@@ -37,6 +61,30 @@
       "writtenOn": "2025-01-19T18:39:25Z",
       "side": 0,
       "message": "What have you done regarding this part?",
+      "range": {
+        "startLine": 47,
+        "startChar": 0,
+        "endLine": 54,
+        "endChar": 53
+      },
+      "revId": "304a72ae1627d7f6d9809d02a45c48f5beec0a2c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "3d1a65e9_6c3aaec8",
+        "filename": "Android.mk",
+        "patchSetId": 2
+      },
+      "lineNbr": 54,
+      "author": {
+        "id": 26928
+      },
+      "writtenOn": "2025-01-19T18:51:39Z",
+      "side": 0,
+      "message": "I don\u0027t remember why I bring it exactly, but checking the stock /vendor it seems not present. so I guess it can be removed.",
+      "parentUuid": "4af53711_38c0e2d8",
       "range": {
         "startLine": 47,
         "startChar": 0,
