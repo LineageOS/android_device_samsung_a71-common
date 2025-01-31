@@ -16,6 +16,24 @@
       "message": "where building AIDL NXP NFC HAL?",
       "revId": "508a29ef622d4a560db2d0a9b0ce872cf9eb993e",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "8f08f503_6e94a42e",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 26928
+      },
+      "writtenOn": "2025-01-31T23:19:53Z",
+      "side": 1,
+      "message": "device specific tree, I add \"a71-NfcAIDL\" as topic for such thing.",
+      "parentUuid": "f801bc42_6e6431ab",
+      "revId": "508a29ef622d4a560db2d0a9b0ce872cf9eb993e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
