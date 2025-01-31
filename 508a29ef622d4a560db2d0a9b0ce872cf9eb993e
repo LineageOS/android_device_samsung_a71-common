@@ -34,6 +34,24 @@
       "parentUuid": "f801bc42_6e6431ab",
       "revId": "508a29ef622d4a560db2d0a9b0ce872cf9eb993e",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "dfa64890_ab4de61b",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 34676
+      },
+      "writtenOn": "2025-01-31T23:22:18Z",
+      "side": 1,
+      "message": "I see only https://review.lineageos.org/c/LineageOS/android_device_samsung_a71/+/417267 and editing manifest",
+      "parentUuid": "8f08f503_6e94a42e",
+      "revId": "508a29ef622d4a560db2d0a9b0ce872cf9eb993e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
