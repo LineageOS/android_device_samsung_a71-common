@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "f801bc42_6e6431ab",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 34676
+      },
+      "writtenOn": "2025-01-31T23:18:30Z",
+      "side": 1,
+      "message": "where building AIDL NXP NFC HAL?",
+      "revId": "508a29ef622d4a560db2d0a9b0ce872cf9eb993e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
