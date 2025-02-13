@@ -737,14 +737,11 @@ vendor/lib64/libgcs-osal.so
 vendor/lib64/libgcs.so
 
 # Thermal
-vendor/bin/hw/vendor.samsung.hardware.thermal@1.0-service
 vendor/bin/thermal-engine
 vendor/etc/init/init_thermal-engine.rc
-vendor/etc/init/vendor.samsung.hardware.thermal@1.0-service.rc
 vendor/etc/thermal-engine.conf
 vendor/lib/libthermalclient.so
 vendor/lib64/libthermalclient.so
-vendor/lib64/vendor.samsung.hardware.thermal@1.0.so
 
 # Time
 vendor/app/TimeService/TimeService.apk
