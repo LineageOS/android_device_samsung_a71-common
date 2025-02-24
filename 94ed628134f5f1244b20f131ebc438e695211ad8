@@ -34,6 +34,24 @@
       "parentUuid": "9d734e1a_cd06cca6",
       "revId": "94ed628134f5f1244b20f131ebc438e695211ad8",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "6f2a51ee_4313e869",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2025-02-24T22:52:48Z",
+      "side": 1,
+      "message": "That\u0027s what I am saying, you could drop this commit if you\u0027re updating the policy to match stock later on.",
+      "parentUuid": "deb51769_1a7543df",
+      "revId": "94ed628134f5f1244b20f131ebc438e695211ad8",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
