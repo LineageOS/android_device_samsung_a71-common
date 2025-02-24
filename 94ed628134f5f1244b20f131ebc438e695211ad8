@@ -16,6 +16,24 @@
       "message": "What\u0027s the point of doing this to 4 commits later \"match policy with stock\"?",
       "revId": "94ed628134f5f1244b20f131ebc438e695211ad8",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "deb51769_1a7543df",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 26928
+      },
+      "writtenOn": "2025-02-24T22:51:49Z",
+      "side": 1,
+      "message": "ig this one is sufficient? https://review.lineageos.org/c/LineageOS/android_device_samsung_a71-common/+/419971",
+      "parentUuid": "9d734e1a_cd06cca6",
+      "revId": "94ed628134f5f1244b20f131ebc438e695211ad8",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
