@@ -16,6 +16,24 @@
       "message": "It is also unused in this tree? If so: https://review.lineageos.org/c/LineageOS/android_device_samsung_gts4lv/+/421982",
       "revId": "6df9cad27d304ec70228f1d164ea0e9c52fc813a",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "2328b90a_d7ec93a9",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2025-03-09T21:39:59Z",
+      "side": 1,
+      "message": "It really looks unused. Pick the change I linked.",
+      "parentUuid": "fa9e57a7_398fc708",
+      "revId": "6df9cad27d304ec70228f1d164ea0e9c52fc813a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
