@@ -52,6 +52,23 @@
       "parentUuid": "2328b90a_d7ec93a9",
       "revId": "6df9cad27d304ec70228f1d164ea0e9c52fc813a",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "831a7c2d_ec4d756f",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 26928
+      },
+      "writtenOn": "2025-03-12T11:10:09Z",
+      "side": 1,
+      "message": "Fixed:\nbuild/make/core/main.mk:1101: warning:  device/samsung/a71/lineage_a71.mk includes non-existent modules in PRODUCT_PACKAGES\nOffending entries:\nlibsecril-client",
+      "revId": "6df9cad27d304ec70228f1d164ea0e9c52fc813a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ],
   "submitRequirementResults": []
