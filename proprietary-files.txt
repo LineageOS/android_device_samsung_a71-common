@@ -638,6 +638,8 @@ vendor/lib/libpdnotifier.so
 vendor/lib/libqcmaputils.so
 vendor/lib/libqrtr.so
 vendor/lib/libqsocket.so
+vendor/lib/libsec_semRil.so
+vendor/lib/libsecril-client.so
 vendor/lib/libxml.so
 vendor/lib/vendor.qti.hardware.data.connection@1.0.so
 vendor/lib/vendor.qti.hardware.data.connection@1.1.so
@@ -654,8 +656,10 @@ vendor/lib64/libpdnotifier.so
 vendor/lib64/libqcmaputils.so
 vendor/lib64/libqrtr.so
 vendor/lib64/libqsocket.so
-vendor/lib64/libril_sem.so
+vendor/lib64/libril_sem.so;DISABLE_CHECKELF
 vendor/lib64/libsec-ril.so|21bf98711ceefc61e88158a344cf82f8ccbe8253|21bf98711ceefc61e88158a344cf82f8ccbe8253
+vendor/lib64/libsec_semRil.so
+vendor/lib64/libsecril-client.so
 vendor/lib64/libvkmanager_vendor.so
 vendor/lib64/libxml.so
 vendor/lib64/vendor.qti.hardware.data.connection@1.0.so
