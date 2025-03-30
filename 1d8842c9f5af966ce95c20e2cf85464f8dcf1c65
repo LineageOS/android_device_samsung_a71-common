@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "bf33eb77_61495fb9",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2025-03-30T21:10:38Z",
+      "side": 1,
+      "message": "Pick this https://review.lineageos.org/c/LineageOS/android_device_samsung_r8q/+/424887",
+      "revId": "1d8842c9f5af966ce95c20e2cf85464f8dcf1c65",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
