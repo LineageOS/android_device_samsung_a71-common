@@ -353,7 +353,6 @@ PRODUCT_PACKAGES += \
     android.hardware.sensors-service.samsung-multihal \
     libsensorndkbridge \
     libshim_sensorndkbridge \
-    sensors.samsung \
 
 PRODUCT_COPY_FILES += \
     $(COMMON_PATH)/configs/sensors/com.samsung.permission.SSENSOR.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/com.samsung.permission.SSENSOR.xml \
