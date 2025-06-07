@@ -5,13 +5,11 @@
 //
 
 cc_binary {
-    name: "vendor.lineage.touch@1.0-service.sm6150",
-    init_rc: ["vendor.lineage.touch@1.0-service.sm6150.rc"],
-    vintf_fragments: ["vendor.lineage.touch@1.0-service.sm6150.xml"],
+    name: "vendor.lineage.touch-service.samsung_sm6150",
+    init_rc: ["vendor.lineage.touch-service.samsung_sm6150.rc"],
+    vintf_fragments: ["vendor.lineage.touch-service.samsung_sm6150.xml"],
     defaults: ["samsung_header_path_defaults"],
     relative_install_path: "hw",
-    // FIXME: this should be 'vendor: true' for modules that will eventually be
-    // on AOSP.
     proprietary: true,
     srcs: [
         "GloveMode.cpp",
@@ -21,9 +19,9 @@ cc_binary {
     ],
     shared_libs: [
         "libbase",
-        "libbinder",
-        "libhidlbase",
+        "liblog",
+        "libbinder_ndk",
         "libutils",
-        "vendor.lineage.touch@1.0",
+        "vendor.lineage.touch-V1-ndk",
     ],
 }
