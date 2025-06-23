@@ -30,6 +30,8 @@ PRODUCT_AAPT_PREF_CONFIG := xxhdpi
 PRODUCT_AAPT_PREBUILT_DPI := xxhdpi xhdpi hdpi
 
 # ANT+
+TARGET_DISABLE_EPPE := true
+
 PRODUCT_PACKAGES += \
     AntHalService-Soong \
 
