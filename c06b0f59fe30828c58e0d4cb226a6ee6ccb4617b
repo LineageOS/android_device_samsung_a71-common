@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "ce943c46_ebc8a62d",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2025-07-29T21:07:34Z",
+      "side": 1,
+      "message": "Nit: please use this change-Id -  https://review.lineageos.org/q/Id4fcd7ca97b04f887dec6939419815722097d10c",
+      "revId": "c06b0f59fe30828c58e0d4cb226a6ee6ccb4617b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
