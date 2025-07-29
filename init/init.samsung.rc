@@ -35,6 +35,9 @@ on early-init
     mkdir /mnt/vendor/efs 0771 radio system
     mkdir /mnt/vendor/persist 0771 root system
 
+    chown system radio /sys/class/sec/tsp/cmd
+    chmod 0664 /sys/class/sec/tsp/cmd
+
 on init
     symlink /dev/block/bootdevice/by-name/steady  /dev/block/steady
     symlink /dev/block/bootdevice/by-name/persistent  /dev/block/persistent
