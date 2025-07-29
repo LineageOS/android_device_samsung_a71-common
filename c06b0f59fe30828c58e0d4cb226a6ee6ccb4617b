@@ -34,6 +34,24 @@
       "parentUuid": "ce943c46_ebc8a62d",
       "revId": "c06b0f59fe30828c58e0d4cb226a6ee6ccb4617b",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "6c3ce11c_d6b628d0",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2025-07-29T21:19:43Z",
+      "side": 1,
+      "message": "Yes, abandon this in gerrit, `git commit --amend` locally with proper metadata and push again.",
+      "parentUuid": "ffb7d9be_d3553b4b",
+      "revId": "c06b0f59fe30828c58e0d4cb226a6ee6ccb4617b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
