@@ -184,9 +184,6 @@ ro.vendor.fingerprint.request_touch_event=true
 # FM
 vendor.hw.fm.init=0
 
-# FRP
-ro.frp.pst=/dev/block/persistent
-
 # Fs-verity
 ro.apk_verity.mode=2
 
