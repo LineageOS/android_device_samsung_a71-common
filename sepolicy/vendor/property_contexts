@@ -9,9 +9,6 @@ vendor.bluetooth_nv_ver                          u:object_r:vendor_bluetooth_pro
 # CNE
 persist.vendor.cne                               u:object_r:vendor_cnd_prop:s0
 
-# Fastcharge
-persist.vendor.sec.fastchg_enabled               u:object_r:vendor_fastcharge_prop:s0
-
 # Fingerprint
 vendor.finger.down                               u:object_r:vendor_fingerprint_prop:s0
 
