@@ -393,7 +393,7 @@ PRODUCT_BOOT_JARS += \
 
 # Touch
 PRODUCT_PACKAGES += \
-    vendor.lineage.touch-service.samsung_sm6150 \
+    vendor.lineage.touch-service.samsung \
 
 # USB
 PRODUCT_PACKAGES += \
