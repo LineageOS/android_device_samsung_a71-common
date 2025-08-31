@@ -16,6 +16,23 @@
       "message": "it might be a weird bug for some, i tried other roms, lo and behold, it doesnt have frp lock. it only happened on LOS",
       "revId": "a3b35f8796fd77df9f086b271d380b23f459f547",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "40a3f1a3_da4e4f4f",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 32261
+      },
+      "writtenOn": "2025-08-31T00:18:20Z",
+      "side": 1,
+      "message": "abandoned, it was gapps package issues after all",
+      "revId": "a3b35f8796fd77df9f086b271d380b23f459f547",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ],
   "submitRequirementResults": []
