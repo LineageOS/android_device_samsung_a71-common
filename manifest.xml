@@ -159,6 +159,26 @@
         <transport>hwbinder</transport>
     </hal>
     <hal format="aidl">
+        <name>vendor.lineage.livedisplay</name>
+        <version>1</version>
+        <interface>
+            <name>IAdaptiveBacklight</name>
+            <instance>default</instance>
+        </interface>
+        <interface>
+            <name>IDisplayColorCalibration</name>
+            <instance>default</instance>
+        </interface>
+        <interface>
+            <name>IDisplayModes</name>
+            <instance>default</instance>
+        </interface>
+        <interface>
+            <name>ISunlightEnhancement</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+    <hal format="aidl">
         <name>vendor.lineage.touch</name>
         <version>1</version>
         <interface>
