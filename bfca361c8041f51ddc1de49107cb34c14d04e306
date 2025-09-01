@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "0cf73012_081636ad",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2025-09-01T09:14:40Z",
+      "side": 1,
+      "message": "I\u0027d prefer you to pick this instead https://review.lineageos.org/c/LineageOS/android_device_samsung_sm8250-common/+/447704",
+      "revId": "bfca361c8041f51ddc1de49107cb34c14d04e306",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}

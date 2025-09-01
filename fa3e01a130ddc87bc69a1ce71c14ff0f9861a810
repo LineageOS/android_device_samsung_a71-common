@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "fdde2fab_6a236cbb",
+        "filename": "manifest.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 244,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2025-09-01T09:14:40Z",
+      "side": 0,
+      "message": "If your device supported this, the common HAL now also supports it.",
+      "range": {
+        "startLine": 237,
+        "startChar": 0,
+        "endLine": 244,
+        "endChar": 20
+      },
+      "revId": "fa3e01a130ddc87bc69a1ce71c14ff0f9861a810",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
