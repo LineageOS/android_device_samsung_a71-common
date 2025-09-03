@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "a9e70e40_0081b970",
+        "filename": "overlay/frameworks/base/core/res/res/values/config.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 124,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2025-09-03T13:32:14Z",
+      "side": 0,
+      "message": "You should remove this altogether in a separate change.",
+      "range": {
+        "startLine": 118,
+        "startChar": 0,
+        "endLine": 124,
+        "endChar": 20
+      },
+      "revId": "651dde32ef84273c0e320ae8735f2ca94ecd4864",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
