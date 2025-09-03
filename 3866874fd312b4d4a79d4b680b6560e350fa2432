@@ -33,6 +33,23 @@
       "message": "----------Color Modes---------\ncolor modes supported: \nmode: 0 RIs { 0 dynamic_range [ 0 ] } \ncurrent mode: 0\ncurrent render_intent: 0\ncurrent dynamic_range: SDR\ncurrent transform: \n  1.00   0.00   0.00   0.00 \n  0.00   1.00   0.00   0.00 \n  0.00   0.00   1.00   0.00 \n  0.00   0.00   0.00   1.00",
       "revId": "3866874fd312b4d4a79d4b680b6560e350fa2432",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c64ebbf7_95af5a85",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2025-09-03T13:31:30Z",
+      "side": 1,
+      "message": "Uhhh, then a71 only supports default mode.",
+      "revId": "3866874fd312b4d4a79d4b680b6560e350fa2432",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
