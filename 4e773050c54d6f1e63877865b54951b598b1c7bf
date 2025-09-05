@@ -122,6 +122,24 @@
       "parentUuid": "274d5fe3_be400bef",
       "revId": "4e773050c54d6f1e63877865b54951b598b1c7bf",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "10e29be9_d248bd86",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 26928
+      },
+      "writtenOn": "2025-09-05T22:46:56Z",
+      "side": 1,
+      "message": "I forget to mention this: https://p.lineageos.org/idKzo5x6r5 IFastCharge is not working as I lost \"FastCharge\" toggle in battery settings after this change.",
+      "parentUuid": "d96b9c4f_040104f7",
+      "revId": "4e773050c54d6f1e63877865b54951b598b1c7bf",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
