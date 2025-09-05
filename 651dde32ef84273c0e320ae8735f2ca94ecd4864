@@ -22,6 +22,30 @@
       },
       "revId": "651dde32ef84273c0e320ae8735f2ca94ecd4864",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "e618b9e8_c349c150",
+        "filename": "overlay/frameworks/base/core/res/res/values/config.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 124,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2025-09-05T21:22:16Z",
+      "side": 0,
+      "message": "@hakamelassouad@gmail.com don\u0027t forget about this note here. You need to remove this altogether as your device only supports one mode.",
+      "parentUuid": "a9e70e40_0081b970",
+      "range": {
+        "startLine": 118,
+        "startChar": 0,
+        "endLine": 124,
+        "endChar": 20
+      },
+      "revId": "651dde32ef84273c0e320ae8735f2ca94ecd4864",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
