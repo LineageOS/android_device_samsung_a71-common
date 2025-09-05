@@ -140,6 +140,24 @@
       "parentUuid": "d96b9c4f_040104f7",
       "revId": "4e773050c54d6f1e63877865b54951b598b1c7bf",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "75b53803_2bcb928c",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2025-09-05T22:54:27Z",
+      "side": 1,
+      "message": "You did not loose it. It\u0027s there, but in a different way: Settings - Battery - Charging speed. Also, comment irrelevant to this change.",
+      "parentUuid": "10e29be9_d248bd86",
+      "revId": "4e773050c54d6f1e63877865b54951b598b1c7bf",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
