@@ -176,6 +176,24 @@
       "parentUuid": "75b53803_2bcb928c",
       "revId": "4e773050c54d6f1e63877865b54951b598b1c7bf",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "0742cd87_ce356beb",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2025-09-05T23:22:39Z",
+      "side": 1,
+      "message": "Color profile inside LiveDisplay settings? Check if your device has proper MDNIE support. The visual differences are not hugely noticable, but you should at least be able to differentiate between \"Reading\" and \"Natural\" - from more warm to white.",
+      "parentUuid": "410ff8b8_5aa6a288",
+      "revId": "4e773050c54d6f1e63877865b54951b598b1c7bf",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
