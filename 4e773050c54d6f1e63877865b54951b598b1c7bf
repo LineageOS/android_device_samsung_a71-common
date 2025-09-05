@@ -158,6 +158,24 @@
       "parentUuid": "10e29be9_d248bd86",
       "revId": "4e773050c54d6f1e63877865b54951b598b1c7bf",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "410ff8b8_5aa6a288",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 26928
+      },
+      "writtenOn": "2025-09-05T23:02:11Z",
+      "side": 1,
+      "message": "the LiveDisplay itself is working, but when I select different color profile nothing happens (unless is my device behaviour).",
+      "parentUuid": "75b53803_2bcb928c",
+      "revId": "4e773050c54d6f1e63877865b54951b598b1c7bf",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
