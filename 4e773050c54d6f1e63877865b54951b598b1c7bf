@@ -230,6 +230,24 @@
       "parentUuid": "13448d6f_ea5ffd96",
       "revId": "4e773050c54d6f1e63877865b54951b598b1c7bf",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "27152bf5_a2b4e8f6",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2025-09-06T11:26:54Z",
+      "side": 1,
+      "message": "The best thing you can do now, as this change is 1:1 with what you already have merged (local LiveDisplay HAL is 1:1 with Samsung\u0027s) is also to merge this merge.",
+      "parentUuid": "ea64a54e_e6250938",
+      "revId": "4e773050c54d6f1e63877865b54951b598b1c7bf",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
