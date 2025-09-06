@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "81552883_6e60a81b",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 26928
+      },
+      "writtenOn": "2025-09-06T18:55:22Z",
+      "side": 1,
+      "message": "@bgcngm@gmail.com a question, I did a ff to lineage-23.0, but when I\u0027m trying to push it, it ended in the following error: https://p.lineageos.org/5Ow2ozBSpx, did I miss something? thanks in advance.",
+      "revId": "dcdf7efdc2cbe67391a9e01d8434b6508a15d68d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
