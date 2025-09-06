@@ -291,6 +291,8 @@ PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/handheld_core_hardware.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/handheld_core_hardware.xml \
 
 # Power
+$(call soong_config_set,qtipower,mode_ext_lib,//$(COMMON_PATH):libpowermode-ext-sm7150)
+
 PRODUCT_PACKAGES += \
     android.hardware.power-service-qti \
 
