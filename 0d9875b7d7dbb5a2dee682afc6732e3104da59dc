@@ -52,6 +52,24 @@
       "parentUuid": "bc177196_edf8ff6e",
       "revId": "0d9875b7d7dbb5a2dee682afc6732e3104da59dc",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d96e4161_0f4c0a29",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 26928
+      },
+      "writtenOn": "2025-09-06T15:04:47Z",
+      "side": 1,
+      "message": "so I have to COLOR_MODE_BOOSTED too?",
+      "parentUuid": "f85e01fd_a92ef235",
+      "revId": "0d9875b7d7dbb5a2dee682afc6732e3104da59dc",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
