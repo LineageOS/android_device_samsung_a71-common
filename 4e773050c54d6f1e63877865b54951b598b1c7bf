@@ -194,6 +194,24 @@
       "parentUuid": "410ff8b8_5aa6a288",
       "revId": "4e773050c54d6f1e63877865b54951b598b1c7bf",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "13448d6f_ea5ffd96",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 26928
+      },
+      "writtenOn": "2025-09-06T11:03:36Z",
+      "side": 1,
+      "message": "apparently is not supported on a71, same as gts7l.",
+      "parentUuid": "0742cd87_ce356beb",
+      "revId": "4e773050c54d6f1e63877865b54951b598b1c7bf",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
