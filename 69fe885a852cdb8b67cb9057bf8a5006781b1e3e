@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b67fab2f_56183f84",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2025-09-06T15:16:31Z",
+      "side": 1,
+      "message": "No, you need to remove all. What\u0027s the point of having just one mode?",
+      "revId": "69fe885a852cdb8b67cb9057bf8a5006781b1e3e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
