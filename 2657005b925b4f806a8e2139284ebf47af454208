@@ -34,6 +34,24 @@
       "parentUuid": "011f5bfb_2a5471a2",
       "revId": "2657005b925b4f806a8e2139284ebf47af454208",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "ae1c9133_c9682d93",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2025-09-23T17:49:12Z",
+      "side": 1,
+      "message": "I\u0027d keep everything related to it here and remove it from init.qcom.rc.",
+      "parentUuid": "4f79851e_35df972d",
+      "revId": "2657005b925b4f806a8e2139284ebf47af454208",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
