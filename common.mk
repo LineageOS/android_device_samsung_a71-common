@@ -224,9 +224,17 @@ PRODUCT_PACKAGES += \
 # Overlays
 PRODUCT_ENFORCE_RRO_TARGETS := *
 
-PRODUCT_PACKAGE_OVERLAYS += \
-    $(COMMON_PATH)/overlay \
-    $(COMMON_PATH)/overlay-lineage \
+PRODUCT_PACKAGES += \
+    FrameworksResCommon \
+    FrameworksResSamsung \
+    SettingsResCommon \
+    SettingsProviderResCommon \
+    SystemUIResCommon \
+    TelecommResCommon \
+    TelephonyResCommon \
+
+DEVICE_PACKAGE_OVERLAYS += \
+    $(COMMON_PATH)/overlay-lineage
 
 # Partitions
 PRODUCT_PACKAGES += \

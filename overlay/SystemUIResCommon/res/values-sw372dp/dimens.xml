@@ -6,6 +6,6 @@
  */
 -->
 <resources>
-    <!-- Default for Settings.Global.DISABLE_WINDOW_BLURS -->
-    <integer name="def_disable_window_blurs">1</integer>
+    <dimen name="rounded_corner_radius">4dp</dimen>
+    <dimen name="rounded_corner_content_padding">8dp</dimen>
 </resources>
