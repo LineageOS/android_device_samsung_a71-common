@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "661882e2_29ee5d1b",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 26928
+      },
+      "writtenOn": "2026-01-23T09:36:06Z",
+      "side": 1,
+      "message": "I need to check 2 things before merge:\n* AOD, it seems like the display goes into a repeated turning on/off after doing a single tap on the display.\n* Animations are out of place, based on what my testers said.",
+      "revId": "7d14d2a812dd3b352f92b88cbbeb716c9a840827",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
