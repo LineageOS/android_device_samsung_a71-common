@@ -374,7 +374,7 @@ PRODUCT_SOONG_NAMESPACES += \
     $(COMMON_PATH) \
     bootable/deprecated-ota \
     hardware/google/interfaces \
-    hardware/google/pixel \
+    hardware/google/pixel/power-libperfmgr \
     hardware/qcom-caf/common/libqti-perfd-client \
     hardware/samsung \
     vendor/qcom/opensource/usb/etc \
