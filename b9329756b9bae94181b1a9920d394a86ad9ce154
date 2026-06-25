@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "ee1de1e5_20c8cf8d",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2026-06-25T20:26:28Z",
+      "side": 1,
+      "message": "OG commit had this removal: https://review.lineageos.org/c/LineageOS/android_device_samsung_sm8250-common/+/424450",
+      "revId": "b9329756b9bae94181b1a9920d394a86ad9ce154",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
