@@ -394,6 +394,9 @@ PRODUCT_BOOT_JARS += \
 PRODUCT_PACKAGES += \
     android.hardware.thermal-service.qti \
 
+PRODUCT_COPY_FILES += \
+    $(COMMON_PATH)/configs/thermal/thermal-engine.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine.conf \
+
 # Touch
 PRODUCT_PACKAGES += \
     vendor.lineage.touch-service.samsung \
