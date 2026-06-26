@@ -16,6 +16,24 @@
       "message": "I don\u0027t understand why you\u0027re shifting to QTI power HAL, but okay.",
       "revId": "a060787df5e3953109e07ad19963a0fae97e3659",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "ed80978a_e81c526e",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 26928
+      },
+      "writtenOn": "2026-06-26T17:50:08Z",
+      "side": 1,
+      "message": "likely I\u0027ll not, seems like dt2w is kinda slow to react with qti powerhal, will double check (I hope is just a coincidence).",
+      "parentUuid": "19af23f8_c457fc20",
+      "revId": "a060787df5e3953109e07ad19963a0fae97e3659",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
