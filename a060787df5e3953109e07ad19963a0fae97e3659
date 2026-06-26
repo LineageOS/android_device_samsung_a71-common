@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "19af23f8_c457fc20",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2026-06-26T17:12:12Z",
+      "side": 1,
+      "message": "I don\u0027t understand why you\u0027re shifting to QTI power HAL, but okay.",
+      "revId": "a060787df5e3953109e07ad19963a0fae97e3659",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
