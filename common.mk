@@ -108,9 +108,6 @@ PRODUCT_PACKAGES += \
 # Fastbootd
 TARGET_BOARD_FASTBOOT_INFO_FILE := $(COMMON_PATH)/fastboot-info.txt
 
-PRODUCT_PACKAGES += \
-    fastbootd \
-
 # Fingerprint
 PRODUCT_PACKAGES += \
     android.hardware.biometrics.fingerprint-service.samsung \
