@@ -16,6 +16,23 @@
       "message": "This is wrong, btw.",
       "revId": "5505a3bd4b429fdd46b08ef5c28d13a5db3474de",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "8ac60f54_b8f33429",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2026-08-15T11:49:47Z",
+      "side": 1,
+      "message": "https://review.lineageos.org/c/LineageOS/android_system_core/+/490867",
+      "revId": "5505a3bd4b429fdd46b08ef5c28d13a5db3474de",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
